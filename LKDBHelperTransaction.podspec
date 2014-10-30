@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
  
 
   s.name         = "LKDBHelperTransaction"
-  s.version      = "1.0.3"
-  s.summary      = "LKDBHelper 扩展修改了一下，简化使用方式"
+  s.version      = "1.0.4"
+  s.summary      = "LKDBHelper 扩展修改了一下，简化使用方式(依赖LKDB1.4)"
  
   s.homepage     = "https://github.com/xpemail/LKDBHelperTransaction"
  
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "wuxiande" => "xd.wu@msn.com" } 
   s.ios.deployment_target = "6.0" 
   
-  s.source = { :git => 'https://github.com/xpemail/LKDBHelperTransaction.git' , :tag => '1.0.3'} 
+  s.source = { :git => 'https://github.com/xpemail/LKDBHelperTransaction.git' , :tag => '1.0.4'}
  
   s.requires_arc = true
   

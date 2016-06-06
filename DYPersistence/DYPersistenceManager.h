@@ -28,10 +28,10 @@
 
 - (void)delete:(DYPersistenceObject *)object;
 
-- (void)drop:(Class)class;
+- (void)drop:(Class)clas;
 
 - (NSArray *)execQuery:(NSString *)sql;
 
-- (NSArray *)execQuery:(Class)class sql:(NSString *)sql;
+- (NSArray *)execQuery:(Class)clas sql:(NSString *)sql;
 
 @end
